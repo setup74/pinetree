@@ -1,0 +1,89 @@
+
+Pinetree font family, version 1.0 - RELAEASE NOTE
+-------------------------------------------------
+
+
+Licence notice
+--------------
+
+  Copyleft 1995, Narae, Lee yongjae.
+
+  Narae is a name for "Society for Computer Science" in Dept. of
+  Computer Science & Statistics in Seoul National University.
+
+  This file is merged version of Times Font and Pinetree Hangul Font.
+  Permission to use, copy, modify, distribute and sell this software
+  and its documentation for any purpose and without fee is hereby
+  granted, provided that the above copyright notices appear in all
+  copies and that both those copyleft notices and this permission
+  notice appear in supporting documentation, and that the names of
+  Narae not be used in advertising or publicity pertaining
+  to distribution of the software without specific, written prior
+  permission.  Narae make no representations about the
+  suitability of this software for any purpose.  It is provided "as
+  is" without express or implied warranty.
+
+
+  ASCII part of this font is come from X's Times bitmap font.
+  The licence of it is:
+
+  Copyright 1984-1989, 1994 Adobe Systems Incorporated.
+  Copyright 1988, 1994 Digital Equipment Corporation.
+
+  Adobe is a trademark of Adobe Systems Incorporated which may be
+  registered in certain jurisdictions.
+  Permission to use these trademarks is hereby granted only in
+  association with the images described in this file.
+
+  Permission to use, copy, modify, distribute and sell this software
+  and its documentation for any purpose and without fee is hereby
+  granted, provided that the above copyright notices appear in all
+  copies and that both those copyright notices and this permission
+  notice appear in supporting documentation, and that the names of
+  Adobe Systems and Digital Equipment Corporation not be used in
+  advertising or publicity pertaining to distribution of the software
+  without specific, written prior permission.  Adobe Systems and
+  Digital Equipment Corporation make no representations about the
+  suitability of this software for any purpose.  It is provided "as
+  is" without express or implied warranty.
+
+
+Description
+-----------
+
+  Pinetree font is Nfont which uses Ncode encoding for Hangul
+  and the ASCII part is same as ASCII encoding.
+
+  Ncode encoding for Hangul is:
+
+    -----------------------------------------------------------------
+    | a0 FIL| a1 K  | a2 Kk | a3 N  | a4 T  | a5 Tt | a6 R  | a7 M  |
+    | a8 P  | a9 Pp | aa S  | ab Ss | ac @  | ad C  | ae Cc | af Ch |
+    | b0 Kh | b1 Th | b2 Ph | b3 H  | b4 a  | b5 ae | b6 ya | b7 yae|
+    | b8 eo | b9 e  | ba yeo| bb ye | bc o  | bd wa | be wae| bf oe |
+    | c0 yo | c1 u  | c2 weo| c3 we | c4 wi | c5 yu | c6 eu | c7 yi |
+    | c8 i  | c9 k  | ca kk | cb ks | cc n  | cd nc | ce nh | cf t  |
+    | d0 l  | d1 lk | d2 lm | d3 lp | d4 ls | d5 lth| d6 lph| d7 lh |
+    | d8 m  | d9 p  | da ps | db s  | dc ss | dd ng | de c  | df ch |
+    | e0 kh | e1 th | e2 ph | e3 h  |       |       |       |       | 
+    -----------------------------------------------------------------
+
+
+  Pure Pinetree Hangul font family is composed of:
+  (no italic nor 8,10 bold)
+
+    pt8, pt10, pt12, pt12b, pt14, pt14b, pt18, pt18b, pt24, pt24b.
+
+
+  Full fonts are made by merging Times family and pure Pinetree family:
+
+    size  \   timR    timB     timI    timBI
+    ------------------------------------------
+      8   |   pt8     pt8      pt8     pt8
+      10  |   pt10    pt10     pt10    pt10
+      12  |   pt12    pt12b    pt12    pt12b
+      14  |   pt14    pt14b    pt14    pt14b
+      18  |   pt18    pt18b    pt18    pt18b
+      24  |   pt24    pt24b    pt24    pt24b
+    ------------------------------------------  
+

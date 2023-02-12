@@ -1,0 +1,13 @@
+#! /bin/sh
+# Makepcf - Make pcf files from bdf files for Pinetree Font Pack version 0.5 .
+# Lee yongjae, setup@shiva.snu.ac.kr
+
+for n in \
+  ptR08  ptR10  ptR12  ptR14  ptR18  ptR24 \
+  ptB08  ptB10  ptB12  ptB14  ptB18  ptB24 \
+  ptI08  ptI10  ptI12  ptI14  ptI18  ptI24 \
+  ptBI08 ptBI10 ptBI12 ptBI14 ptBI18 ptBI24
+do
+  echo $n
+  bdftopcf -o $n.pcf $n.bdf
+done

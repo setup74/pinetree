@@ -1,0 +1,56 @@
+$Id: README,v 1.3 1998/07/28 08:28:33 yjlee Exp yjlee $
+
+nconv는 ncode와 KSC5601-1987, 조합형코드, Machintosh Hancode사이의 코드변환을
+해주는 프로그램입니다.
+
+
+INSTALL
+-------
+
+make를 실행시키면, nconv 라는 이름의 실행화일이 생깁니다.
+nconv를 적당한 실행화일 디렉토리에 copy 합니다.
+nconv는 호출되는 이름에 따라 코드변환 설정의 기본값을 바꿉니다. (USAGE 참조)
+따라서 실행화일 디렉토리에서,
+
+  ln -s nconv ks2n
+
+과 같이 ks2n 이라는 이름으로 심볼릭 링크를 만들어 놓고,
+ks2n을 호출하면, nconv 가 -k option 이 기본값으로 설정된 상태로 실행됩니다.
+따라서, nconv를 설치한 실행화일 디렉토리에서 다음과 같은 명령을 실행시키면,
+다른 코드변환에 대해서도 편리하게 사용할 수 있습니다.
+
+  ln -s nconv ks2n
+  ln -s nconv n2ks
+  ln -s nconv comb2n
+  ln -s nconv n2comb
+  ln -s nconv han2n
+  ln -s nconv n2han
+  ln -s nconv str2hex
+  ln -s nconv hex2han
+
+
+USAGE
+-----
+
+nconv [ code_spec ] [ infile [ outfile ] ]
+
+code_spec:
+  -k : KSC5601-1987 to ncode (ks2n)
+  -K : ncode to KSC5601-1987 (n2ks)
+  -c : Combination code to ncode (comb2n)
+  -C : ncode to Combination code (n2comb)
+  -m : hancode to ncode (han2n)
+  -M : ncode to hancode (n2han)
+  -x : string to hexadecimal string, except newline character (str2hex)
+  -X : hexadecimal string to string, except newline character (hex2str)
+
+nconv를 각 code_spec옵션의 괄호안에 나와 있는 이름으로 실행시키면,
+해당 옵션이 기본값으로 설정되어 실행됩니다.(INSTALL 참조)
+다른 이름으로 설정되지 않았을 때의 기본 변환은 -k option으로 설정되어 있습니다.
+
+
+----------
+문제점이 발견되거나 의견이 있으시면 연락 바랍니다.
+
+이용재 (yjlee@cglab.snu.ac.kr, http://cglab.snu.ac.kr/~yjlee), 1998.7.28.
+
